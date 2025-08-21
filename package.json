@@ -5,6 +5,7 @@
   "scripts": {},
   "private": true,
   "dependencies": {
+    "@nx/devkit": "^21.4.0",
     "axios": "^1.6.0",
     "express": "^4.21.2"
   },
