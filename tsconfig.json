@@ -5,6 +5,30 @@
   "references": [
     {
       "path": "./packages/cli"
+    },
+    {
+      "path": "./packages/core"
+    },
+    {
+      "path": "./packages/integrations/nx"
+    },
+    {
+      "path": "./packages/integrations/turborepo"
+    },
+    {
+      "path": "./packages/task-queue"
+    },
+    {
+      "path": "./packages/core"
+    },
+    {
+      "path": "./packages/integrations/turborepo"
+    },
+    {
+      "path": "./packages/integrations/nx"
+    },
+    {
+      "path": "./packages/task-agent"
     }
   ]
 }
