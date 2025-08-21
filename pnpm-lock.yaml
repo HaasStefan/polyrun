@@ -111,14 +111,29 @@ importers:
 
   packages/cli: {}
 
+  packages/contracts:
+    dependencies:
+      tslib:
+        specifier: ^2.3.0
+        version: 2.8.1
+
   packages/core:
     dependencies:
+      '@polyrun/contracts':
+        specifier: workspace:*
+        version: link:../contracts
+      '@polyrun/nx':
+        specifier: workspace:*
+        version: link:../integrations/nx
       tslib:
         specifier: ^2.3.0
         version: 2.8.1
 
   packages/integrations/nx:
     dependencies:
+      '@polyrun/contracts':
+        specifier: workspace:*
+        version: link:../../contracts
       tslib:
         specifier: ^2.3.0
         version: 2.8.1

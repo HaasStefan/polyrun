@@ -1,1 +1,1 @@
-export * from './lib/nx.js';
+export * from './lib/graph';
